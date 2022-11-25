@@ -16,12 +16,14 @@ header {
     object-fit: cover;
     background-image: url(./23989BFC-86AC-4B8D-BBF9-6ACE0BBA9463_1_105_c.jpeg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*banner*/
 .banner {
     position: sticky;
-    top: 700px;
+    top: 0;
+    z-index: 1;
     background-color: #0061ae;
     height: 120px;
     text-align: center;
@@ -32,11 +34,12 @@ header {
 h1 {
     font-size: 70px;
     word-spacing: 20px;
+    margin: 0%;
 }
 
 /*main*/
 
-main {
+.main_part {
     background-color: #dcf3f5;
     position: relative;
     height: 50em;
@@ -76,7 +79,10 @@ main {
 }
 
 .information p {
-    color: #0061ae;
+    opacity: 0;
+    transition: opacity 1500ms;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 .information h3 {
@@ -125,52 +131,68 @@ footer {
 
 /*hover*/
 
-.about_me:hover .about_me h3 {
+
+.about_me:hover h3 {
     color: #dcf3f5;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background-color: #0061ae;
+    cursor: pointer;
 }
 
-.about_me:hover .about_me p {
+.about_me:hover p {
     background-color: rgba(0, 0, 0, 0.14);
+    color: #0061ae;
+    opacity: 1;
 }
 
-.location:hover .location h3 {
+.location:hover h3 {
     color: #dcf3f5;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background-color: #0061ae;
+    cursor: pointer;
 }
 
-.location:hover .location p {
+.location:hover p {
     background-color: rgba(0, 0, 0, 0.14);
+    color: #0061ae;
+    opacity: 1;
 }
 
-.education:hover .education h3 {
+.education:hover h3 {
     color: #dcf3f5;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background-color: #0061ae;
+    cursor: pointer;
 }
 
-.education:hover .education p {
+.education:hover p {
     background-color: rgba(0, 0, 0, 0.14);
+    color: #0061ae;
+    opacity: 1;
 }
 
-.work_experience:hover .work_experience h3 {
+.work_experience:hover h3 {
     color: #dcf3f5;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background-color: #0061ae;
+    cursor: pointer;
 }
 
-.work_experience:hover .work_experience p {
+.work_experience:hover p {
     background-color: rgba(0, 0, 0, 0.14);
+    color: #0061ae;
+    opacity: 1;
 }
 
-.languages:hover .languages h3 {
+.languages:hover h3 {
     color: #dcf3f5;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background-color: #0061ae;
+    cursor: pointer;
 }
 
-.languages:hover .languages p {
+.languages:hover p {
     background-color: rgba(0, 0, 0, 0.14);
+    color: #0061ae;
+    opacity: 1;
 }
