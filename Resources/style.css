@@ -71,6 +71,7 @@ h1 {
 
 .information {
     display: flex;
+    text-align: center;
 }
 
 .information div {
@@ -84,10 +85,10 @@ h1 {
     transition: opacity 1500ms;
     padding: 5px;
     border-radius: 15px;
+    color: #0061ae;
 }
 
 .information h3 {
-    text-align: center;
     color: #013967;
     border-radius: 30px;
     padding: 6px;
@@ -116,7 +117,7 @@ h1 {
 
 .languages {
     right: 2em;
-    top: 35em;
+    top: 32em;
 }
 
 /*footer*/
