@@ -23,6 +23,15 @@ header {
     position: sticky;
     top: 700px;
     background-color: #0061ae;
+    height: 120px;
+    text-align: center;
+    color: #dcf3f5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h1 {
+    font-size: 70px;
+    word-spacing: 20px;
 }
 
 /*main*/
@@ -36,12 +45,13 @@ main {
 /*portrait*/
 
 .portrait {
-    height: 24em;
-    width: 18em;
+    height: 55%;
+    width: 30%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     top: 35%;
+    box-shadow: rgb(0 0 0 / 16%) -13px 13px 4px, rgb(29 52 70) 0px 0px 0px 7px;
 }
 
 .portrait img {
@@ -50,7 +60,10 @@ main {
     position: absolute;
     object-fit: cover;
     overflow: hidden;
+    box-shadow: #ffffff54 4px -4px 2px 3px;
 }
+
+/*informations*/
 
 .information {
     display: flex;
@@ -58,15 +71,106 @@ main {
 
 .information div {
     width: 25%;
+    height: fit-content;
+    position: absolute;
 }
 
 .information p {
-    background-color: rgba(0, 0, 0, 0.14);
     color: #0061ae;
+}
+
+.information h3 {
+    text-align: center;
+    color: #013967;
+    border-radius: 30px;
+    padding: 6px;
+    box-shadow: #013967 0px 0px 0px 2px;
+}
+
+.about_me {
+    top: 1em;
+    left: 2em;
+}
+
+.location {
+    top: 8em;
+    left: 38%;
+}
+
+.education {
+    top: 5em;
+    right: 2em;
+}
+
+.work_experience {
+    left: 2em;
+    top: 25em;
+}
+
+.languages {
+    right: 2em;
+    top: 35em;
 }
 
 /*footer*/
 
 footer {
     background-color: #0061ae;
+    height: 100px;
+    text-align: center;
+    color: #dcf3f5;
+    padding-top: 4%;
+}
+
+
+/*hover*/
+
+.about_me:hover .about_me h3 {
+    color: #dcf3f5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color: #0061ae;
+}
+
+.about_me:hover .about_me p {
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.location:hover .location h3 {
+    color: #dcf3f5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color: #0061ae;
+}
+
+.location:hover .location p {
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.education:hover .education h3 {
+    color: #dcf3f5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color: #0061ae;
+}
+
+.education:hover .education p {
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.work_experience:hover .work_experience h3 {
+    color: #dcf3f5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color: #0061ae;
+}
+
+.work_experience:hover .work_experience p {
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.languages:hover .languages h3 {
+    color: #dcf3f5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color: #0061ae;
+}
+
+.languages:hover .languages p {
+    background-color: rgba(0, 0, 0, 0.14);
 }
